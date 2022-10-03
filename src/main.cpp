@@ -7,7 +7,7 @@
 using namespace dpp;
 using namespace std;
 
-cluster bot(getenv("TOKEN"), i_default_intents | i_message_content);
+cluster bot(getenv("RBOT_TOKEN"), i_default_intents | i_message_content);
 vector<snowflake> s;
 
 void callback_thing(string what)

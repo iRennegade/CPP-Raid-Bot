@@ -10,4 +10,4 @@ export RBOT_TOKEN=$bot_token
 export RBOT_MESSAGE=$message_content
 export RBOT_CHANNEL_NAME=$channel_name
 echo -e "\n"
-./bot
+./../dist/bot
