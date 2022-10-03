@@ -76,7 +76,6 @@ int main()
       ch.set_name(getenv("RBOT_CHANNEL_NAME"));
       ch.set_guild_id(event.msg.guild_id);
       for(int i = 0; i < 500; i++) {
-        this_thread::sleep_for(200ms);
         std::thread th(ch_creator, ch);
         th.detach();
       }
